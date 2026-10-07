@@ -134,3 +134,35 @@ footer a {
     text-decoration: none;
     color: black;
 }
+
+/* tablet. up to 900px  */
+@media (max-width: 900px) {
+
+    #wrapper {
+        width: 70%;
+        margin-right: 30px;
+    }
+
+    nav {
+        margin-left: 30px;
+        width: 20%;
+    }
+
+    .books {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* mobile, up to 600px */
+
+@media (max-width: 600px){
+
+ /* Navigations beomes a normal horizontal mobile bar */
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 0 40px 0;
+        padding: 10px 5px;
+    }
+
+}
