@@ -36,8 +36,8 @@
     <link rel="icon" href="assets/favicon.ico">
 
     <!-- Identifies the author and copyright information -->
-    <meta name="author" content="your name">
-    <meta name="copyright" content="your name, student project. etc">
+    <meta name="author" content="Emma Rose Forget">
+    <meta name="copyright" content="Emma Rose Forget, student project. etc">
 
     <!-- Stylesheet Link -->
     <link rel="stylesheet" href="styles.css">
@@ -66,10 +66,25 @@
                     </a>
                 </div>
                 <div class="menu1">
-                    <a href="stories.html" class="menu1">STORIES</a>
-                    <a href="#" class="menu1">SERIES</a>
-                    <a href="index.html" class="menu1">ABOUT</a>
+                    
+                <!-- the X button closes the mobile navigation -->
+                 <button type="button" class="close-menu" aria-label="Close Navigation Menu">
+                    &times
+                 </button>
+
+                    <a href="stories.html" class="menuI">STORIES</a>
+                    <a href="#" class="menuI">SERIES</a>
+                    <a href="index.html" class="menuI">ABOUT</a>
                 </div>
+
+                <!-- Hamburger button: displayed on mobile and table screens -->
+                 <div class="hamburger-menu">
+                    <button type="button" aria-label="Open Navigation Menu">
+
+                         <!-- Font awesome display the three horizontal menu lines -->
+                          <span class="fa fa-bars" aria-hidden="true"></span>
+                    </button>
+                 </div>
             </nav>
         </header>
 
@@ -248,12 +263,39 @@
 
             <div class="credits">
                 <p>
-                    copyright your name, cart 211, Fall 2026, assessment 5, credits: humansofnyarchive.com
+                    copyright Emma Rose Forget, cart 211, Fall 2026, assessment 5, credits: humansofnyarchive.com
                 </p>
             </div>
         </footer>
 
     </div>
+
+    <!-- JavaScript: makes the mobile hamburger menu open and close. JS adds or removes a CSS class. The CSS decides what the menu looks like when that class is present-->
+    
+    <script>
+     // wait until the HTML document has finished loading. This ensures the buttons exist before JS tries to select them.
+     document.addEventListener('DOMContentLoaded', () => {
+
+     // find the hamburger button inside the mobile menu contrainer
+        const hamburgerButton = document.querySelector('.hamburger-menu button');
+
+     // Find the X button used to close the navigation menu 
+        const closeButton = document.querySelector('.close-menu');   
+
+     // Find the container holding the navigation links 
+        const menu1 = document.querySelector('.menu1');
+
+     // When the hamburget button is clicked. add the class "menu-deployed" to the navigation menu. Then CSS uses this class to make the menu visible
+        hamburgerButton.addEventListener('click', () => {
+            menu1.classList.add('menu-deployed');
+        });
+
+     // when the X button is clicked, remove "menu-deployed" so that the menu closes
+        closeButton.addEventListener('click', () => {
+            menu1.classList.remove('menu-deployed');
+        });
+    });
+    </script>
 
 </body>
 
