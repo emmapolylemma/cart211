@@ -1,4 +1,12 @@
-body
+body {
+    font-family: 'chewy', sans-serif;
+    /* makes the text very BOLD */
+    font-weight: 900;
+    /* Use the default font size as the reference size */
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
 
 nav {
   margin-top: 50px;
