@@ -1,14 +1,54 @@
 body {
-    font-family: 'chewy', sans-serif;
-    /* makes the text very BOLD */
-    font-weight: 900;
-    /* Use the default font size as the reference size */
-    font-size: 1em;
-    padding: 0;
-    margin: 0;
+    font-family: 'Gaegu', sans-serif;
+    font-weight: 700px;
+    font-size: 1.3em;
+    padding: 15px;
+    margin: auto;
+  
+
+  background-image: url(images/pattern.jpg);
+  background-size: 17px;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;  
+  
+}
+  
+header {
+  margin-top: -20px;
+  text-decoration: underline;
+}
+
+p {
+  margin-top: -15px;
 }
 
 nav {
-  margin-top: 50px;
-    
+  margin-top: 5px;
+  font-weight: bolder;
+  font-size: large
+}
+/* image in index */
+img {
+  width: 800px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+footer {
+  margin-top: -15px;
+  margin-bottom: -10px;
+}
+
+/* Images of me an my boyfriend */
+.im {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-left: 5px;
+}
+
+.im img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }

@@ -1,4 +1,11 @@
 
+  <!-- The bows at the top of the page -->
+     ₊˚⊹♡ °❀.ೃ࿔  ────୨ৎ──── ⊹ ࣪ ˖ ໒꒱⋆.ೃ࿔*:･
+
+   <!-- bows at the bottom of the page -->
+    ₊˚⊹♡ °❀.ೃ࿔  ────୨ৎ──── ⊹ ࣪ ˖ ໒꒱⋆.ೃ࿔*:･
+
+
 
 
 My private information isn't yours to share.
@@ -6,7 +13,9 @@ My private information isn't yours to share.
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Adding icon to the tab -->
     <link rel="icon" href="images/icons/star.ico">
