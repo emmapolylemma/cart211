@@ -11,6 +11,9 @@ My private information isn't yours to share.
     <!-- Adding icon to the tab -->
     <link rel="icon" href="images/icons/star.ico">
 
+<!-- linking css -->
+ <link rel="stylesheet" href="styles.css">
+
 
         <nav>
             <a href="index.html" style="text-decoration: underline dotted rgb(255, 153, 153); color:rgb(249, 138, 138); font-size:110%; ">home</a> 
