@@ -6,29 +6,27 @@ body {
   padding: 0;
   margin: 10;
 
-  background-image: url(images/pattern.jpg);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.5)),
+    url(images/pattern.jpg);
+
   background-size: 17px;
-  background-color: rgba(255, 255, 255, 0.5);
-  background-blend-mode: light
 }
 
 nav {
   margin: none;
 }
 
-
-
-en;
-
-
-
 header {
-  margin-top: -20px;
+  margin-top: -10px;
+  margin-left: 10px;
   text-decoration: underline;
 }
 
 p {
-  margin-top: -15px;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 1px;
 }
 
 nav {
@@ -63,4 +61,15 @@ footer {
   object-fit: cover;
 }
 
->>>>>>>0505932b50c258ec49b9c6a638307958ca84404e
+/* images of batman!! my cute itty bitty baby boy */
+.bats {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5px;
+}
+
+.bats img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
