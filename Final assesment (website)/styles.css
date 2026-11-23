@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   font-family: 'Fuzzy Bubbles', sans-serif;
   font-weight: bolder;
   font-size: 1em;
@@ -9,3 +10,58 @@ body {
 nav {
   margin: none;
 }
+=======
+    font-family: 'Gaegu', sans-serif;
+    font-weight: 700px;
+    font-size: 1.3em;
+    padding: 15px;
+    margin: auto;
+  
+
+  background-image: url(images/pattern.jpg);
+  background-size: 17px;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;  
+  
+}
+  
+header {
+  margin-top: -20px;
+  text-decoration: underline;
+}
+
+p {
+  margin-top: -15px;
+}
+
+nav {
+  margin-top: 5px;
+  font-weight: bolder;
+  font-size: large
+}
+/* image in index */
+img {
+  width: 800px;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+footer {
+  margin-top: -15px;
+  margin-bottom: -10px;
+}
+
+/* Images of me an my boyfriend */
+.im {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-left: 5px;
+}
+
+.im img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+>>>>>>> 0505932b50c258ec49b9c6a638307958ca84404e
