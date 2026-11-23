@@ -1,30 +1,27 @@
 body {
-<<<<<<< HEAD
+
   font-family: 'Fuzzy Bubbles', sans-serif;
   font-weight: bolder;
   font-size: 1em;
   padding: 0;
   margin: 10;
+
+  background-image: url(images/pattern.jpg);
+  background-size: 17px;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: light
 }
 
 nav {
   margin: none;
 }
-=======
-    font-family: 'Gaegu', sans-serif;
-    font-weight: 700px;
-    font-size: 1.3em;
-    padding: 15px;
-    margin: auto;
-  
 
-  background-image: url(images/pattern.jpg);
-  background-size: 17px;
-  background-color: rgba(255, 255, 255, 0.7);
-  background-blend-mode: lighten;  
-  
-}
-  
+
+
+en;
+
+
+
 header {
   margin-top: -20px;
   text-decoration: underline;
@@ -39,6 +36,7 @@ nav {
   font-weight: bolder;
   font-size: large
 }
+
 /* image in index */
 img {
   width: 800px;
@@ -64,4 +62,5 @@ footer {
   height: 400px;
   object-fit: cover;
 }
->>>>>>> 0505932b50c258ec49b9c6a638307958ca84404e
+
+>>>>>>>0505932b50c258ec49b9c6a638307958ca84404e
