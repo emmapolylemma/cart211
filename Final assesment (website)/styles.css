@@ -61,6 +61,13 @@ footer {
   object-fit: cover;
 }
 
+/* image of my mom with taz on her belly */
+.mama3 img {
+  width: 190px;
+  height: 140px;
+  margin-left: -10px;
+}
+
 /* images of batman!! my cute itty bitty baby boy */
 .bats {
   display: flex;
@@ -83,5 +90,55 @@ footer {
 
 .text2 {
   font-size: 12px;
-  margin-left: -10px;
+  margin-left: 0px;
+}
+
+/* filo section */
+.filo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.filo img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.filoText {
+  font-size: larger;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.filoText2 {
+  font-size: 12px;
+  margin-left: 0px;
+}
+
+/* robin's section */
+.robin {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+.robin img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.robinHeader {
+  font-size: larger;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.robinText {
+  font-size: 12px;
+  margin-left: 0px;
 }
