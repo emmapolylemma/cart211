@@ -142,3 +142,31 @@ footer {
   font-size: 12px;
   margin-left: 0px;
 }
+
+/* childhood */
+.childhoodPics img {
+  width: 280px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* Family section */
+
+
+.FAMILY img {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.familyPicture img {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.family2 img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
