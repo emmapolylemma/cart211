@@ -6,12 +6,6 @@
     ₊˚⊹♡ °❀.ೃ࿔  ────୨ৎ──── ⊹ ࣪ ˖ ໒꒱⋆.ೃ࿔*:･
 
 
-This is batman, my little baby. Hes been with me since I was just a young girl. He's now 11 years old and still thriving, being clingy as always and purring loudly on his favourite purple bird blanket
-
-
-
-
-
 
 
 My private information isn't yours to share.
