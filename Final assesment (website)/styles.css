@@ -152,7 +152,6 @@ footer {
 
 /* Family section */
 
-
 .FAMILY img {
   width: 400px;
   height: 450px;
@@ -169,4 +168,46 @@ footer {
   width: 250px;
   height: 250px;
   object-fit: cover;
+}
+
+/* Interests section */
+
+.tornado img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tornado {
+  margin-left: 10px;
+}
+
+.Minecraft img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.Minecraft {
+  margin-left: 10px
+}
+
+.bugs img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bugs {
+  margin-left: 10px;
+}
+
+.POKEMON img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.POKEMON {
+  margin-left: 10px;
 }
